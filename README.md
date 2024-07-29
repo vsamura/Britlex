@@ -3,9 +3,9 @@
 
 ![screenshot](README/Britlex.jpg)
 
-[GitHub Pages Design and layout](https://vsamura.github.io/Britlex/)  
+[GitHub Pages Britlex](https://vsamura.github.io/Britlex/)  
 
-На первый взгляд достаточно сложный макет, различные виды экранов прорисованы..  
+На первый взгляд достаточно интересный макет, различные виды экранов прорисованы..  
 
 Буду стараться!
 
