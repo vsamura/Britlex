@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --font-family: "Poppins", sans-serif;
+}
+
 html{
   box-sizing: border-box;
 }
@@ -30,6 +36,8 @@ blockquote,
 dl,
 dd {
   margin: 0;
+  font-family: var(--font-family);
+  font-weight: 500;
 }
 
 ul[class] {
@@ -48,7 +56,39 @@ select {
   font: inherit;
 }
 
-.logo{
-  padding-top: 100px;
-  padding-left: 100px;
+.container{
+  max-width: 1342px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
+
+/* nav */
+.nav__flex-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 57px;
+}
+.nav-ul {
+  display: flex;
+  column-gap: 30px;
+}
+.nav-link {
+  font-size: 20px;
+  color: #263238;
+  text-decoration: none;
+}
+.nav-btn {
+  display: block;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
+  text-decoration: none;
+  border: 2px solid #263238;
+  border-radius: 5px;
+  width: 220px;
+  height: 70px;
+  padding: 15px 55px;
+}
+
