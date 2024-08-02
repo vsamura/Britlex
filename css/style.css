@@ -59,20 +59,21 @@ select {
 .container{
   max-width: 1342px;
   margin: 0 auto;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 /* nav */
+.logo{
+  margin-top: -5px;
+}
 .nav__flex-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 57px;
+  padding-top: 50px;
 }
 .nav-ul {
   display: flex;
-  column-gap: 30px;
+  column-gap: 40px;
 }
 .nav-link {
   font-size: 20px;
@@ -80,6 +81,7 @@ select {
   text-decoration: none;
 }
 .nav-btn {
+  margin-top: 4px;
   display: block;
   font-weight: 400;
   font-size: 24px;
