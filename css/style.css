@@ -97,6 +97,9 @@ select {
   padding: 15px 55px;
   margin-right: 30px;
 }
+.nav-min{
+  display: none;
+}
 
 @media screen and (max-width: 992px){
   .container{
@@ -129,6 +132,10 @@ select {
 @media screen and (max-width: 767px){
   .nav-ul, .nav-btn{
     display: none;
+  }
+  .nav-min{
+    display: block;
+    padding-right: 19px;
   }
 }
 @media screen and (max-width: 575px){}
