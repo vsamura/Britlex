@@ -129,7 +129,12 @@ select {
 
   }
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 955px){
+  .logo{
+    margin-top: 13px;
+    margin-left: 8px;
+    max-width: 89px;
+  }
   .nav-ul, .nav-btn{
     display: none;
   }
@@ -138,8 +143,6 @@ select {
     padding-right: 37px;
   }
 }
-
-
 /* header */
 .header {
   padding-top: 100px;
