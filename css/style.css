@@ -241,5 +241,47 @@ select {
 }
 
 @media screen and (max-width: 955px){
+  .header-h1 {
+    font-size: 36px;
+    line-height: 125%;
+    max-width: 217px;
+  }
+  .header-img {
+    width: 352px;
+    margin-top: -28px;
+  }
+  .header-box{
+    column-gap: 20px;
+  }
+  .header-p {
+    font-size: 16px;
+    line-height: 145%;
+  }
+  .header-btn {
+    width: 236px;
+    height: 65px;
+    font-size: 18px;
+    padding: 19px 67px;
 
+  }
+  .header {
+    padding-top: 79px;
+    padding-left: 6px;
+  }
+  .header-img-box {
+    padding-top: 68px;
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 840px){
+  .header-content-img {
+    width: 73px;
+    height: 67px;
+  }
+}
+
+@media screen and (max-width: 715px){
+  .header-content-img {
+    display: none;
+  }
 }
