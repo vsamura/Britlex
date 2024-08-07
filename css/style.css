@@ -308,8 +308,7 @@ select {
   font-size: 34px;
   line-height: 132%;
   max-width: 100%;
-  margin-top: 18px;
-  margin-left: 0px;
+  margin: 18px auto 0;
   }
   .header-p {
     max-width: 486px;
