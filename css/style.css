@@ -367,3 +367,78 @@ select {
     font-size: 16px;
   }
 }
+
+/* Scills */
+.skills {
+}
+.skills-h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 167%;
+  color: #000;
+  padding-top: 104px;
+  padding-bottom: 92px;
+}
+.skills-box-grid {
+  display: grid;
+  grid-template-areas: 
+  "speaking writing reading"
+  "speaking listening listening";
+  gap: 18px;
+}
+.skills-item {
+  display: flex;
+  flex-direction: column; 
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+.speaking {
+  grid-area: speaking;
+  
+}
+.writing {
+  grid-area: writing;
+}
+.reading {
+  grid-area: reading;
+}
+.listening {
+  grid-area: listening;
+  flex-direction: row-reverse;
+}
+.listening .skills-item-content{
+  padding: 77px 022px;
+}
+.writing .skills-item-img{
+  margin: 0 0 0 auto;
+}
+.skills-item-content {
+  height: 100%;
+  padding: 0 22px 38px ;
+}
+.skills-item-h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 267%;
+  color: #263238;
+  margin-top: -25px;
+}
+.skills-item-p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #8f95a5;
+  padding-bottom: 32px;
+}
+.skills-item-btn {
+  border-radius: 5px;
+  width: 218px;
+  height: 60px;
+  background: #263238;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  padding: 15px 52px;
+  text-decoration: none;
+}
+
