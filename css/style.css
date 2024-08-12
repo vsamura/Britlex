@@ -522,9 +522,16 @@ select {
   .skills{
     padding-left: 15px;
   }
+  .listening .skills-item-img{
+    width: 100%;
+    padding-bottom: 0;
+  }
+  .listening .skills-item-content {
+    padding-top: 25px;
+}
 }
 
-@media screen and (max-width: 475px){
+@media screen and (max-width: 485px){
   .skills-box-grid {
     grid-template-areas: 
     "speaking"
