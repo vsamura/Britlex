@@ -99,7 +99,6 @@ select {
 .nav-min{
   display: none;
 }
-
 @media screen and (max-width: 992px){
   .container{
     padding-left: 32px;
@@ -111,7 +110,6 @@ select {
   }
   .nav__flex-box {
     padding-top: 35px;
-
   }
   .nav-ul{
     column-gap: 30px;
@@ -143,6 +141,7 @@ select {
     padding-right: 37px;
   }
 }
+
 /* header */
 .header {
   padding-top: 100px;
@@ -239,7 +238,6 @@ select {
     padding-left: 7px;
   }
 }
-
 @media screen and (max-width: 955px){
   .header-h1 {
     font-size: 36px;
@@ -262,7 +260,6 @@ select {
     height: 65px;
     font-size: 18px;
     padding: 19px 67px;
-
   }
   .header {
     padding-top: 79px;
@@ -279,7 +276,6 @@ select {
     height: 67px;
   }
 }
-
 @media screen and (max-width: 715px){
   .header-content-img {
     display: none;
@@ -357,7 +353,6 @@ select {
     padding: 18px 99px;
     font-size: 16px;
   }
-
 }
 @media screen and (max-width: 318px){
   .header-btn {
@@ -429,7 +424,6 @@ select {
   color: #8f95a5;
   padding-bottom: 32px;
 }
-
 .skills-item-btn {
   border-radius: 5px;
   width: 218px;
@@ -441,7 +435,6 @@ select {
   padding: 15px 52px;
   text-decoration: none;
 }
-
 @media screen and (max-width: 1250px){
   .skills-item-h3{
     font-size: 22px;
@@ -476,7 +469,6 @@ select {
     padding-left: 25px;
   }
 }
-
 @media screen and (max-width: 820px){
   .skills-item-h3{
     font-size: 20px;
@@ -508,7 +500,6 @@ select {
     padding-bottom: 45px;
   }
 }
-
 @media screen and (max-width: 762px){
   .skills-box-grid {
     grid-template-areas: 
@@ -530,7 +521,6 @@ select {
     padding-top: 25px;
 }
 }
-
 @media screen and (max-width: 485px){
   .skills-box-grid {
     grid-template-areas: 
@@ -540,7 +530,6 @@ select {
     "listening";
   }
 }
-
 @media screen and (max-width: 340px){
   .skills{
     padding-left: 25px;
@@ -548,7 +537,6 @@ select {
 }
 
 /* about */
-
 .about-h2 {
   font-weight: 600;
   font-size: 48px;
@@ -589,7 +577,6 @@ select {
 .about-img-box {
   margin-right: 10px;
 }
-
 @media screen and (max-width: 1150px){
   .about-h2 {
     font-size: 36px;
@@ -606,8 +593,6 @@ select {
   .about {
     margin-left: 15px;
   }
-  .about-content-item {
-  }
   .about-content-h3 {
     font-size: 30px;
   }
@@ -615,7 +600,6 @@ select {
     font-size: 16px;
   }
 }
-
 @media screen and (max-width: 767px){
   .about-h2 {
     font-size: 30px;
@@ -644,7 +628,6 @@ select {
     font-size: 13px;
   }
 }
-
 @media screen and (max-width: 575px){
   .about-box {
     flex-direction: column-reverse;
@@ -680,7 +663,6 @@ select {
     text-align: center;
   }
 }
-
 @media screen and (max-width: 330px){
   .about-h2 {
     font-size: 24px;
@@ -696,5 +678,5 @@ select {
     padding: 17px 0px;
     margin-right: 10px;
     font-size: 13px;
-}
+  }
 }
