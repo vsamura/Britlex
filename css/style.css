@@ -790,6 +790,9 @@ select {
     align-items: center;
     text-align: center;
   }
+  .pricing-h2{
+    padding-top: 120px;
+  }
   .pricing-img-1 {
     width: 291px;
     height: 291px;
