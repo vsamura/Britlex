@@ -190,6 +190,7 @@ select {
   color: #fff;
   text-decoration: none;
 }
+.skills-item-btn:hover,
 .header-btn:hover,
 .nav-link:hover,
 .btn:hover{
