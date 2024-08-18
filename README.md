@@ -1,5 +1,5 @@
 ## Britlex
-### Задание над которым работаю сейчас  
+### Одна из первых моих работ на GitHub 
 
 ![screenshot](README/Britlex.jpg)
 
